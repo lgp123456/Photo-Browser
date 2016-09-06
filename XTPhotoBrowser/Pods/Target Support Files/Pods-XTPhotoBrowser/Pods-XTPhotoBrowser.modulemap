@@ -1,0 +1,6 @@
+framework module Pods_XTPhotoBrowser {
+  umbrella header "Pods-XTPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

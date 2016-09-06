@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3519971586A8303498C4A90 /* Pods_XTPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B04CDF72FA2778D7A303C51 /* Pods_XTPhotoBrowser.framework */; };
+		E959876C1D68583D00177C0E /* XTPhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95987691D68583D00177C0E /* XTPhotoBrowserViewController.swift */; };
+		E959876D1D68583D00177C0E /* XTPhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959876B1D68583D00177C0E /* XTPhotoLayout.swift */; };
+		E959876F1D68587200177C0E /* XTPhotoBrowserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E959876E1D68587200177C0E /* XTPhotoBrowserViewCell.swift */; };
+		E95987721D686C2000177C0E /* XTPhotoBrowserAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95987711D686C2000177C0E /* XTPhotoBrowserAnimator.swift */; };
+		E99303A81D62F7E60028CA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99303A71D62F7E60028CA2F /* AppDelegate.swift */; };
+		E99303AD1D62F7E60028CA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99303AB1D62F7E60028CA2F /* Main.storyboard */; };
+		E99303AF1D62F7E60028CA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99303AE1D62F7E60028CA2F /* Assets.xcassets */; };
+		E99303B21D62F7E60028CA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99303B01D62F7E60028CA2F /* LaunchScreen.storyboard */; };
+		E99303C41D62FAB70028CA2F /* XTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99303C31D62FAB70028CA2F /* XTHomeViewController.swift */; };
+		E99303C61D63013E0028CA2F /* XTHomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99303C51D63013E0028CA2F /* XTHomeLayout.swift */; };
+		E99303C81D6305410028CA2F /* XTNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99303C71D6305410028CA2F /* XTNetWorkTools.swift */; };
+		E9E8D9E31D6314EC00B7CEA7 /* XTSHopsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8D9E21D6314EC00B7CEA7 /* XTSHopsItem.swift */; };
+		E9E8D9E51D63253600B7CEA7 /* XTHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8D9E41D63253600B7CEA7 /* XTHomeViewCell.swift */; };
+		E9E8D9F01D633A2A00B7CEA7 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8D9EF1D633A2A00B7CEA7 /* UIButton-Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B04CDF72FA2778D7A303C51 /* Pods_XTPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XTPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B84076F9A44BB6D5BBD22F /* Pods-XTPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTPhotoBrowser/Pods-XTPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		E95987691D68583D00177C0E /* XTPhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		E959876B1D68583D00177C0E /* XTPhotoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPhotoLayout.swift; sourceTree = "<group>"; };
+		E959876E1D68587200177C0E /* XTPhotoBrowserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPhotoBrowserViewCell.swift; sourceTree = "<group>"; };
+		E95987711D686C2000177C0E /* XTPhotoBrowserAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTPhotoBrowserAnimator.swift; sourceTree = "<group>"; };
+		E99303A41D62F7E60028CA2F /* XTPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99303A71D62F7E60028CA2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E99303AC1D62F7E60028CA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E99303AE1D62F7E60028CA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E99303B11D62F7E60028CA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E99303B31D62F7E60028CA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99303C31D62FAB70028CA2F /* XTHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTHomeViewController.swift; sourceTree = "<group>"; };
+		E99303C51D63013E0028CA2F /* XTHomeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTHomeLayout.swift; sourceTree = "<group>"; };
+		E99303C71D6305410028CA2F /* XTNetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTNetWorkTools.swift; sourceTree = "<group>"; };
+		E9E8D9E21D6314EC00B7CEA7 /* XTSHopsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTSHopsItem.swift; sourceTree = "<group>"; };
+		E9E8D9E41D63253600B7CEA7 /* XTHomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XTHomeViewCell.swift; sourceTree = "<group>"; };
+		E9E8D9EF1D633A2A00B7CEA7 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		F908665C7AAB7EAEC7D33313 /* Pods-XTPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTPhotoBrowser/Pods-XTPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99303A11D62F7E60028CA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3519971586A8303498C4A90 /* Pods_XTPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8055B46568565D9F5FD354A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B04CDF72FA2778D7A303C51 /* Pods_XTPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9435EB00F5286A332C92DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B84076F9A44BB6D5BBD22F /* Pods-XTPhotoBrowser.debug.xcconfig */,
+				F908665C7AAB7EAEC7D33313 /* Pods-XTPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E95987681D68583D00177C0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E95987691D68583D00177C0E /* XTPhotoBrowserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E959876A1D68583D00177C0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E959876B1D68583D00177C0E /* XTPhotoLayout.swift */,
+				E959876E1D68587200177C0E /* XTPhotoBrowserViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E95987701D686BF800177C0E /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				E95987711D686C2000177C0E /* XTPhotoBrowserAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		E993039B1D62F7E60028CA2F = {
+			isa = PBXGroup;
+			children = (
+				E99303A61D62F7E60028CA2F /* XTPhotoBrowser */,
+				E99303A51D62F7E60028CA2F /* Products */,
+				AD9435EB00F5286A332C92DB /* Pods */,
+				8055B46568565D9F5FD354A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E99303A51D62F7E60028CA2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99303A41D62F7E60028CA2F /* XTPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99303A61D62F7E60028CA2F /* XTPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E99303B91D62F9520028CA2F /* Classes */,
+				E99303A71D62F7E60028CA2F /* AppDelegate.swift */,
+				E99303AB1D62F7E60028CA2F /* Main.storyboard */,
+				E99303AE1D62F7E60028CA2F /* Assets.xcassets */,
+				E99303B01D62F7E60028CA2F /* LaunchScreen.storyboard */,
+				E99303B31D62F7E60028CA2F /* Info.plist */,
+			);
+			path = XTPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E99303B91D62F9520028CA2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E99303C21D62FA330028CA2F /* Utils */,
+				E99303BA1D62F9520028CA2F /* Main */,
+				E99303BE1D62F9520028CA2F /* PhotoBrowser */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E99303BA1D62F9520028CA2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E95987701D686BF800177C0E /* Animator */,
+				E99303BB1D62F9520028CA2F /* Controller */,
+				E99303BC1D62F9520028CA2F /* Model */,
+				E99303BD1D62F9520028CA2F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E99303BB1D62F9520028CA2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E99303C31D62FAB70028CA2F /* XTHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E99303BC1D62F9520028CA2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9E8D9E21D6314EC00B7CEA7 /* XTSHopsItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E99303BD1D62F9520028CA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E99303C51D63013E0028CA2F /* XTHomeLayout.swift */,
+				E9E8D9E41D63253600B7CEA7 /* XTHomeViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E99303BE1D62F9520028CA2F /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E95987681D68583D00177C0E /* Controller */,
+				E959876A1D68583D00177C0E /* View */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E99303C21D62FA330028CA2F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E99303C71D6305410028CA2F /* XTNetWorkTools.swift */,
+				E9E8D9EF1D633A2A00B7CEA7 /* UIButton-Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99303A31D62F7E60028CA2F /* XTPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99303B61D62F7E60028CA2F /* Build configuration list for PBXNativeTarget "XTPhotoBrowser" */;
+			buildPhases = (
+				840C530671FDE76D4C2A8DC2 /* [CP] Check Pods Manifest.lock */,
+				E99303A01D62F7E60028CA2F /* Sources */,
+				E99303A11D62F7E60028CA2F /* Frameworks */,
+				E99303A21D62F7E60028CA2F /* Resources */,
+				E22427B35F7DC02BD8B2C1C1 /* [CP] Embed Pods Frameworks */,
+				AE42A248E3672E9DDA0712E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTPhotoBrowser;
+			productName = XTPhotoBrowser;
+			productReference = E99303A41D62F7E60028CA2F /* XTPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E993039C1D62F7E60028CA2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XT;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李贵鹏";
+				TargetAttributes = {
+					E99303A31D62F7E60028CA2F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E993039F1D62F7E60028CA2F /* Build configuration list for PBXProject "XTPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E993039B1D62F7E60028CA2F;
+			productRefGroup = E99303A51D62F7E60028CA2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99303A31D62F7E60028CA2F /* XTPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99303A21D62F7E60028CA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99303B21D62F7E60028CA2F /* LaunchScreen.storyboard in Resources */,
+				E99303AF1D62F7E60028CA2F /* Assets.xcassets in Resources */,
+				E99303AD1D62F7E60028CA2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		840C530671FDE76D4C2A8DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE42A248E3672E9DDA0712E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTPhotoBrowser/Pods-XTPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22427B35F7DC02BD8B2C1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTPhotoBrowser/Pods-XTPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99303A01D62F7E60028CA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99303A81D62F7E60028CA2F /* AppDelegate.swift in Sources */,
+				E9E8D9F01D633A2A00B7CEA7 /* UIButton-Extension.swift in Sources */,
+				E9E8D9E51D63253600B7CEA7 /* XTHomeViewCell.swift in Sources */,
+				E99303C61D63013E0028CA2F /* XTHomeLayout.swift in Sources */,
+				E95987721D686C2000177C0E /* XTPhotoBrowserAnimator.swift in Sources */,
+				E9E8D9E31D6314EC00B7CEA7 /* XTSHopsItem.swift in Sources */,
+				E99303C81D6305410028CA2F /* XTNetWorkTools.swift in Sources */,
+				E959876C1D68583D00177C0E /* XTPhotoBrowserViewController.swift in Sources */,
+				E99303C41D62FAB70028CA2F /* XTHomeViewController.swift in Sources */,
+				E959876F1D68587200177C0E /* XTPhotoBrowserViewCell.swift in Sources */,
+				E959876D1D68583D00177C0E /* XTPhotoLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E99303AB1D62F7E60028CA2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99303AC1D62F7E60028CA2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E99303B01D62F7E60028CA2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E99303B11D62F7E60028CA2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E99303B41D62F7E60028CA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E99303B51D62F7E60028CA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E99303B71D62F7E60028CA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B84076F9A44BB6D5BBD22F /* Pods-XTPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = XTPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaotian.www.XTPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E99303B81D62F7E60028CA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F908665C7AAB7EAEC7D33313 /* Pods-XTPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = XTPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaotian.www.XTPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E993039F1D62F7E60028CA2F /* Build configuration list for PBXProject "XTPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99303B41D62F7E60028CA2F /* Debug */,
+				E99303B51D62F7E60028CA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99303B61D62F7E60028CA2F /* Build configuration list for PBXNativeTarget "XTPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99303B71D62F7E60028CA2F /* Debug */,
+				E99303B81D62F7E60028CA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E993039C1D62F7E60028CA2F /* Project object */;
+}
